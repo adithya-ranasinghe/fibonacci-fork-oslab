@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 
     int n = atoi(argv[1]);
     if(n < 0) {
-        printf("Please enter a non-negative number.\n");
+        printf("You are entering a negative number,please enter a non-negative number.\n");
         return 1;
     }
 
